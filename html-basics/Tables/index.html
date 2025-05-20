@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+      /* Add border and padding to table, table cells, and headers */
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse; /* Merge borders into a single line */
+        padding: 5px;
+      }
+
+      tfoot {
+        text-align: left; /* Align footer text to the left */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Table displaying expenses -->
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th> <!-- Header row spanning two columns -->
+        </tr>
+        <tr>
+          <th>Category</th> <!-- Column header for expense category -->
+          <th>Amount</th>   <!-- Column header for expense amount -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td> <!-- Category name -->
+          <td>$100</td>      <!-- Amount spent -->
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>  <!-- Footer label -->
+          <th>$300</th>   <!-- Total amount -->
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
