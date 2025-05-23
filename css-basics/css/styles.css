@@ -69,3 +69,20 @@ p::before {
   display: block;
   /* Inserts "..." before each <p> as a separate block element */
 }
+
+
+/* Selectors Specificity */
+
+h1 {
+  color: dodgerblue;
+}
+
+/* This selector is more specific and will apply insted of h1 */
+.highlight {
+  color: deeppink;
+}
+
+/* This selector is the most specific */
+#categories {
+  color: green;
+}
