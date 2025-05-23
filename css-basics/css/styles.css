@@ -18,10 +18,10 @@ p {
 
 /* Releational selector (Styling element from Relational Selectors */
 #fruits p {
-  color: orange;
+  color: rgb(255, 119, 0);
 }
 
-/* Using Pseudo Class Selectors */
+/* Using Pseudo Class Selectors (Pesudo-Classes are used to style elements in a Particular state) */
 
 article p:first-of-type {
   font-size: 140%;
@@ -50,3 +50,22 @@ a:focus {
   color: deeppink;
   /* Changes link color to pink when hovered or focused (e.g. tabbed to) */
 } 
+
+/* Using Pseudo Element Selectors (Pseudo-elements are used to style part of an element) */
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+  /* Styles only the first letter of each <p> */
+}
+
+::selection {
+  background-color: aquamarine;
+  /* Changes the background color of selected text */
+}
+
+p::before {
+  content: "...";
+  display: block;
+  /* Inserts "..." before each <p> as a separate block element */
+}
