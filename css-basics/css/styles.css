@@ -20,3 +20,33 @@ p {
 #fruits p {
   color: orange;
 }
+
+/* Using Pseudo Class Selectors */
+
+article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+  /* Selects the first <p> inside each <article> and makes it larger and italic */
+}
+
+article :last-child {
+  font-weight: bold;
+  /* Selects the last child element of each <article> and makes it bold */
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+  /* Selects odd-numbered <li> items in <ul> and colors them pink */
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+  /* Styles both unvisited and visited links in blue */
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+  /* Changes link color to pink when hovered or focused (e.g. tabbed to) */
+} 
