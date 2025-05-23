@@ -16,4 +16,7 @@ p {
   color: bisque;
 }
 
-
+/* Releational selector (Styling element from Relational Selectors */
+#fruits p {
+  color: orange;
+}
