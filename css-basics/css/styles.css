@@ -98,3 +98,11 @@ strong {
   color: initial;
   border: inherit;
 }
+
+/* Colors */
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(164, 235, 52, 0.99) ;
+}
