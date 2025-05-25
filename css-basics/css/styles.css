@@ -134,3 +134,18 @@ strong {
   border-width: 10px 20px 10px 20px; /* trbl */
   border-radius: 50px;
 }
+
+/* Shadows */
+
+.boxWithShadow {
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+  background-color: gold;
+  box-shadow: 0 0 10px gray;
+}
+
+h3 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
