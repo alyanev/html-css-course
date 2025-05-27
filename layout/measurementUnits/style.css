@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5;
+}
+
+/* body {
+    margin: 0;
+} */
+
+.box {
+    width: 15rem; /* Sets the width of the box to 15 rem units (relative to root font size) */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    background-color: lightblue; /* Sets a light blue background color */
+    border-top: 3px solid gray; /* Adds a 3px solid gray border to the top of the box */
+}
